@@ -10,7 +10,7 @@ pipeline {
             sh "./scipt/test"
         }
 
-        stage("SonaQube"){
+        stage("SonaQuube"){
 
         }
 
