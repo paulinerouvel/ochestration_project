@@ -6,8 +6,11 @@ pipeline {
 
     stages{
         stage("Tests"){
-            sh "npm install"
-            sh "./scipt/test"
+            steps{
+                sh "npm install"
+                sh "./scipt/test"
+            }
+
         }
 
         stage("SonaQuube"){
