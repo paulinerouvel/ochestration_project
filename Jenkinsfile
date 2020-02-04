@@ -2,7 +2,6 @@ pipeline {
 
     agent { label 'app_project_docker' }
 
-    environment {}
 
     stages{
         stage("Tests"){
@@ -13,12 +12,12 @@ pipeline {
 
         }
 
-        stage("SonaQuube"){
+        /*stage("SonaQuube"){
 
         }
 
         stage("Prod Deployment"){
 
-        }
+        }*/
     }
 }
