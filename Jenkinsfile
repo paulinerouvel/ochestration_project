@@ -7,7 +7,7 @@ pipeline {
         stage("Tests"){
             steps{
                 sh "npm install"
-                sh "./scipt/test"
+                sh "./script/test"
             }
 
         }
