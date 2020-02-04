@@ -1,6 +1,6 @@
 pipeline {
 
-    agent { label 'app_docker' }
+    agent any
 
 
     stages{
